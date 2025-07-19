@@ -4,7 +4,7 @@ import os
 import platform
 import posixpath
 import tempfile
-from pipes import quote
+from shlex import quote
 
 import future.moves.builtins as builtins
 
